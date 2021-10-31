@@ -1,0 +1,172 @@
+.about {
+  width: 1280px;
+  padding: 45px 49px 83px 95px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__columnLeft {
+  width: 752px;
+}
+
+.about__columnRight {
+  width: 200px;
+}
+
+.about__title {
+  font-size: 40px;
+  line-height: 64px;
+  font-style: normal;
+  font-weight: 500;
+  color: #262626;
+  margin: 0 0 24px;
+}
+
+.about__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #1F1F1F;
+  margin: 0 0 24px;
+}
+
+.about__servises {
+  display: grid;
+  gap: 16px;
+  row-gap: 44px;
+  grid-template-columns: repeat(auto-fill, 80px);
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 21px;
+}
+
+.about__servis {
+  width: 80px;
+  min-height: 92px;
+  font-size: 12px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  color: #595959;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.about__icon {
+  width: 64px;
+  height: 64px;
+  background-color: #F0F0F0;
+  background-size: 32px 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.about__restroom {
+  background-image:
+    url("../../public/images/restroom.svg");
+}
+
+.about__accessibility {
+  background-image:
+    url("../../public/images/accessibility.svg");
+}
+
+.about__chaise {
+  background-image:
+    url("../../public/images/chaise.svg");
+}
+
+.about__shower {
+  background-image:
+    url("../../public/images/shower.svg");
+}
+
+.about__restaurant {
+  background-image:
+    url("../../public/images/dish.svg");
+}
+
+.about__wifi {
+  background-image:
+    url("../../public/images/wifi.svg");
+}
+
+.about__buoy {
+  background-image:
+    url("../../public/images/buoy.svg");
+}
+
+.about__pool {
+  background-image:
+    url("../../public/images/pool.svg");
+}
+
+.about__playground {
+  background-image:
+    url("../../public/images/playground.svg");
+}
+
+.about__lifeguard {
+  background-image:
+    url("../../public/images/lifeguard.svg");
+}
+
+.about__umbrella {
+  background-image:
+    url("../../public/images/umbrella.svg");
+}
+
+.about__bar {
+  background-image:
+    url("../../public/images/bar.svg");
+}
+
+.about__spa {
+  background-image:
+    url("../../public/images/spa.svg");
+}
+
+.about__jacuzzi {
+  background-image:
+    url("../../public/images/jacuzzi.svg");
+}
+
+.about__columnRight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.about__stars {
+  margin: 20px 5px 16px 0;
+  display: flex;
+}
+
+.about__star {
+  background-image:
+    url("../../public/images/star.png");
+  background-position: center;
+  width: 12px;
+  height: 12px;
+  margin: 6px 8px 6px 0;
+}
+
+.about__star:last-of-type {
+  margin-right: 0;
+}
+
+.about__comment {
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #0468FF;
+  margin: 0;
+}
