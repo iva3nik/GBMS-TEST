@@ -1,6 +1,6 @@
 .about {
   width: 1280px;
-  padding: 45px 49px 83px 95px;
+  padding: 45px 49px 45px 95px;
   display: flex;
   justify-content: space-between;
 }

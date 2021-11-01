@@ -1,0 +1,21 @@
+.photos {
+  width: 1280px;
+  padding: 38px 0 64px;
+  border-bottom: 1px solid #D9D9D9;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photos__card {
+  width: 520px;
+  height: 352px;
+  margin: 0 20px;
+  border-radius: 12px;
+
+}
+
+.photos__balkony {
+  background-image:
+    url("../../public/images/bb_1.png");
+}

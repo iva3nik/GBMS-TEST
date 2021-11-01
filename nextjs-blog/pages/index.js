@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '../components/header/header'
 import Navigation from '../components/navigation/navigation'
 import AboutHotel from '../components/aboutHotel/aboutHotel'
+import Photos from '../components/photos/photos'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <Navigation />
       <AboutHotel />
+      <Photos />
     </>
   )
 }
