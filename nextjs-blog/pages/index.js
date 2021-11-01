@@ -5,6 +5,7 @@ import AboutHotel from '../components/aboutHotel/aboutHotel'
 import Photos from '../components/photos/photos'
 import Reviews from '../components/reviews/reviews'
 import Information from '../components/information/information'
+import Place from '../components/place/place'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Photos />
       <Reviews />
       <Information />
+      <Place />
     </>
   )
 }

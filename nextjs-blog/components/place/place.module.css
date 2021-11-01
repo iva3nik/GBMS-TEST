@@ -1,0 +1,28 @@
+.place {
+  padding: 64px 72px;
+  width: 1280px;
+}
+
+.place__title {
+  font-size: 24px;
+  line-height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  color: #434343;
+  margin: 0;
+}
+
+.place__text {
+  width: 656px;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #434343;
+  margin: 16px 0 48px;
+}
+
+.place__map {
+  border: none;
+  border-radius: 8px;
+}
