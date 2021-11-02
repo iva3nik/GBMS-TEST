@@ -1,8 +1,18 @@
 .about {
   width: 1280px;
-  padding: 45px 49px 45px 95px;
+  padding: 0 0 45px 0;
+}
+
+.about__gradient {
+  width: 1280;
+  height: 45px;
+  background: linear-gradient(180deg, #E5E5E5, white);
+}
+
+.about__content {
   display: flex;
   justify-content: space-between;
+  padding: 0 49px 0 95px;
 }
 
 .about__columnLeft {
