@@ -7,6 +7,7 @@ import Reviews from '../components/reviews/reviews'
 import Information from '../components/information/information'
 import Place from '../components/place/place'
 import Addition from '../components/addition/addition'
+import Footer from '../components/footer/footer'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
       <Information />
       <Place />
       <Addition />
+      <Footer />
     </>
   )
 }
