@@ -9,7 +9,6 @@ import Information from '../components/information/information'
 import Place from '../components/place/place'
 import Addition from '../components/addition/addition'
 import Footer from '../components/footer/footer'
-import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (

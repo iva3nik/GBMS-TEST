@@ -88,7 +88,7 @@ export default function Footer() {
           Политика конфиденциальности
         </a>
         <a href="#" target="_blank" className={styles.footer__agreements}>
-          Политика конфиденциальности
+          Пользовательское соглашение
         </a>
         <div className={styles.footer__lang}>
           <div className={styles.footer__earth}></div>
