@@ -25,6 +25,7 @@
   line-height: 32px;
   font-style: normal;
   font-weight: 600;
+  font-family: 'Montserrat';
   color: #262626;
   margin: 0 0 24px;
 }
@@ -48,13 +49,6 @@
   font-style: normal;
   font-weight: normal;
   color: #262626;
-  cursor: pointer;
-  opacity: 1;
-  transition: .3s linear;
-}
-
-.footer__link:hover {
-  opacity: .6;
 }
 
 .footer__footer {

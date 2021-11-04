@@ -1,3 +1,4 @@
+import Layout from '../components/layout/layout'
 import Head from 'next/head'
 import Header from '../components/header/header'
 import Navigation from '../components/navigation/navigation'
@@ -12,7 +13,7 @@ import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>GBMS</title>
       </Head>
@@ -25,6 +26,6 @@ export default function Home() {
       <Place />
       <Addition />
       <Footer />
-    </>
+    </Layout>
   )
 }
