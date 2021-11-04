@@ -1,4 +1,4 @@
-import styles from "./information.module.css"
+import styles from "./information.module.scss"
 
 export default function Information() {
   return (

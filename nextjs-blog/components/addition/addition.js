@@ -1,4 +1,4 @@
-import styles from "./addition.module.css"
+import styles from "./addition.module.scss"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 

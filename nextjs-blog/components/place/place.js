@@ -1,4 +1,4 @@
-import styles from "./place.module.css"
+import styles from "./place.module.scss"
 
 export default function Place() {
   return (

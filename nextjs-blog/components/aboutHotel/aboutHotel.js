@@ -1,4 +1,4 @@
-import styles from "./aboutHotel.module.css"
+import styles from "./aboutHotel.module.scss"
 
 export default function AboutHotel() {
   return (
